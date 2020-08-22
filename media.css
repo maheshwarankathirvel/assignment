@@ -1,0 +1,54 @@
+@media (min-width:800px){
+    .onebox,.twobox,.threebox,.fourbox,.fivebox,.sixbox{
+        font-size:17px;
+    }
+    .description{
+        font-size:24px;
+    }
+}
+@media (min-width:1300px){
+    .onebox,.twobox,.threebox,.fourbox,.fivebox,.sixbox{
+        font-size:22px;
+    }
+    .footer{
+        width:5%;
+        height: 8%;
+    }
+}
+@media (max-width:500px){
+    .bbord,.gbord,.vbord{
+        width:40%;
+        height:8rem;
+        text-align: center;
+        margin-left:23%;
+    }
+    .bbord{
+        border: 3px solid #319cea;
+    }
+    .gbord{
+        border: 3px solid #3ed319;
+    }
+    .vbord{
+        border: 3px solid #ba31ea;
+    }
+    .blue,.green,.voilet{
+        width:40%;
+        height:8rem;
+        margin-left:23%;
+
+    }
+    .onebox,.twobox,.threebox,.fourbox,.fivebox,.sixbox{
+        font-size:19px;
+        margin-left: 14%;
+        width:70%;
+
+    }
+    .block1,.block2,.block3,.block4{
+        flex-direction: column;
+    }
+}
+@media (width:768px){
+    .blue,.green,.voilet{
+    padding: 8.8% 8.8%;
+    }
+}
